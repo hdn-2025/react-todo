@@ -1,0 +1,42 @@
+.app-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('/assets/mandala-bg.png'); /* add mandala image in assets */
+  background-size: cover;
+  background-position: center;
+}
+
+header h1 {
+  color: #e67e22; /* saffron orange */
+  font-size: 2rem;
+  margin: 0;
+  font-family: 'Merriweather', serif;
+}
+
+.input-section button {
+  background-color: #d35400; /* deep orange */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.input-section button:hover {
+  background-color: #e67e22;
+}
+
+li {
+  background: #fff8f0;
+  border-left: 5px solid #e67e22;
+}
+
+li.completed span {
+  text-decoration: line-through;
+  color: #7f8c8d;
+}
